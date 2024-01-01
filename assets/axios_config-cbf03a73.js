@@ -1,0 +1,1 @@
+import{cH as o,aO as r,aP as s}from"./index-cc84ccf2.js";function c(){const t=window.localStorage.getItem("user_data"),a=o(t),e=r.create({baseURL:s});return e.defaults.headers.common.Authorization=`Bearer ${a==null?void 0:a.token}`,e}export{c as u};
